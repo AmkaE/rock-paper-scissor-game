@@ -25,6 +25,17 @@
 	padding: 7em 0;
 }
 
+.game-screen h2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.game-screen h2 .player,
+.game-screen h2 .ai {
+	color: #fff;
+	padding-bottom: 1em;
+}
+
 .game-controlls {
 	margin: 1em 0;
 }
